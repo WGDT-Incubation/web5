@@ -1,0 +1,46 @@
+.sidebar-container {
+   position: fixed;
+   top: 60px;
+   left: 0;
+   width: 18%;
+   height: calc(100vh - 60px);
+   padding: 20px;
+   background-color: #fffcf7;
+}
+
+.ul-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.list {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.list-icon {
+  height: 28px;
+  width: 30px;
+  color: black; 
+}
+
+
+.list.active {
+  background-color: #c1272c;
+  color: white; 
+  font-weight: bold;
+}
+
+
+.list.active .list-icon {
+  color: white; 
+}

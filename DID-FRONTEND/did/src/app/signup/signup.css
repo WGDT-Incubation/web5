@@ -1,0 +1,112 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff3e3;
+    padding: 20px;
+  }
+  
+  .signup-form-box {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+  
+  .signup-title {
+    color: #c1272c;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  
+  .signup-subtitle {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 24px;
+  }
+  
+  .signup-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    background: #f9f9f9;
+  }
+  
+  .signup-input:focus {
+    background: #fff;
+    border-color: #c1272c;
+    border-width: 2px;
+  }
+  
+  .signup-password-wrapper {
+    position: relative;
+  }
+  
+  .signup-password-toggle {
+    position: absolute;
+    right: 14px;
+    top: 39%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .signup-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #c1272c;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #c1272c;
+  }
+  
+  .error-message1 {
+    color: red;
+    font-size: 13px;
+    margin-top: -10px;
+    margin-bottom: 12px;
+    text-align: left;
+  }
+  
+  .signup-login-redirect {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .signup-login-link {
+    color: #2563eb;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .error-message1 {
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  

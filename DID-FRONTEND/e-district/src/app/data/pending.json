@@ -1,0 +1,221 @@
+[
+  {
+    "name": "John",
+    "fatherName": "David",
+    "motherName": "Sarah",
+    "dateOfBirth": "11-03-1990",
+    "timeOfBirth": "10:20am",
+    "state": "California",
+    "dateOfIssue": "10-05-2020",
+    "certificateType": "birthCertificate",
+    "phoneNumber": "4155551234",
+    "createdAt": "10-05-2020"
+  },
+
+  {
+    "name": "Michael",
+    "fatherName": "Robert",
+    "motherName": "Maria",
+    "fullAddress": "123 Elm St, Florida",
+    "income": "5000",
+    "wordIncome": "Five thousand",
+    "certificateType": "incomeCertificate",
+    "phoneNumber": "3055559876"
+  },
+  {
+    "studentName": "Sophia",
+    "fatherName": "William",
+    "motherName": "Sophia",
+    "dateOfBirth": "30-11-1998",
+    "admissionNo": "12345",
+    "classEnrolled": "12th Grade",
+    "schoolName": "ABC High School",
+    "issueDate": "15-06-2022",
+    "principalName": "Mr. Smith",
+    "certificateType": "bonafideCertificate",
+    "phoneNumber": "2125552345"
+  },
+  {
+    "district": "District A",
+    "tehsil": "Tehsil B",
+    "applicantNo": "5678",
+    "recipientNo": "1234",
+    "date": "20-01-2021",
+    "name": "Olivia",
+    "fatherName": "John",
+    "motherName": "Nancy",
+    "address": "456 Oak St, Nevada",
+    "certificateType": "casteCertificate",
+    "phoneNumber": "7025551122"
+  },
+  {
+    "name": "William",
+    "fatherName": "Brian",
+    "address": "789 Pine St, Arizona",
+    "years": "3",
+    "date": "12-01-2019",
+    "applicant": "William",
+    "certificateType": "characterCertificate",
+    "phoneNumber": "6025550000"
+  },
+  {
+    "name": "Isabella",
+    "fatherName": "Samuel",
+    "motherName": "Linda",
+    "village": "Village A",
+    "post": "Post B",
+    "district": "District C",
+    "state": "Oregon",
+    "fromYear": "2015",
+    "toYear": "2020",
+    "validYears": "5",
+    "date": "22-05-2021",
+    "officerName": "Officer X",
+    "certificateType": "domicileCertificate",
+    "phoneNumber": "5035556677"
+  },
+  {
+    "doctorName": "Dr. James",
+    "applicantName": "Ethan",
+    "fatherOrMotherName": "Charles",
+    "age": "28",
+    "place": "Seattle",
+    "date": "18-11-2018",
+    "certificateType": "medicalCertificate",
+    "phoneNumber": "2065551010"
+  },
+  {
+    "studentName": "Ava",
+    "parentName": "Joseph",
+    "discipline": "Science",
+    "examName": "Final Exam",
+    "examHeldIn": "June 2021",
+    "registrationNumber": "123456",
+    "institute": "XYZ University",
+    "certificateType": "migrationCertificate",
+    "phoneNumber": "2485552121"
+  },
+  {
+    "name": "Liam",
+    "fatherName": "Oscar",
+    "motherName": "Monica",
+    "dateOfBirth": "22-02-1992",
+    "timeOfBirth": "10:20am",
+    "state": "Texas",
+    "certificateType": "birthCertificate",
+    "phoneNumber": "8325551234",
+    "dateOfIssue": "10-05-2020",
+    "createdAt": "10-05-2020"
+  },
+  {
+    "name": "Mia",
+    "fatherName": "Daniel",
+    "motherName": "Maria",
+    "income": "7000",
+    "wordIncome": "Seven thousand",
+    "certificateType": "incomeCertificate",
+    "phoneNumber": "7135557788",
+    "fullAddress": "123 Elm St, Florida"
+  
+  },
+  {
+    "studentName": "Noah",
+    "fatherName": "Adam",
+    "schoolName": "Greenwood School",
+   
+    "certificateType": "bonafideCertificate",
+    "phoneNumber": "6465555566",
+    "motherName": "Sophia",
+    "dateOfBirth": "30-11-1998",
+    "admissionNo": "12345",
+    "classEnrolled": "12th Grade",
+    "issueDate": "15-06-2022",
+    "principalName": "Mr. Smith"
+  },
+  {
+    "name": "Zoe",
+    "fatherName": "Ryan",
+    "address": "100 Maple St, Denver",
+    "years": "2",
+    "certificateType": "characterCertificate",
+    "phoneNumber": "3035551122",
+    "date": "12-01-2019",
+    "applicant": "William"
+  },
+  {
+    "name": "Lucas",
+    "fatherName": "George",
+    "motherName": "Grace",
+    "certificateType": "casteCertificate",
+    "phoneNumber": "4085559988",
+    "district": "District A",
+    "tehsil": "Tehsil B",
+    "applicantNo": "5678",
+    "recipientNo": "1234",
+    "date": "20-01-2021",
+    "address": "456 Oak St, Nevada"
+  },
+
+  {
+    "studentName": "Jack",
+    "parentName": "Vincent",
+    "examName": "Board Exam",
+    "examHeldIn": "March 2022",
+    "certificateType": "migrationCertificate",
+    "phoneNumber": "3195554433",
+    "discipline": "Science",
+    "registrationNumber": "123456",
+    "institute": "XYZ University"
+  },
+  {
+    "name": "Grace",
+    "fatherName": "Alan",
+    "state": "Illinois",
+    "dateOfIssue": "05-04-2020",
+    "certificateType": "birthCertificate",
+    "phoneNumber": "8475551100",
+    "motherName": "Sarah",
+    "dateOfBirth": "11-03-1990",
+    "timeOfBirth": "10:20am",
+    "createdAt": "10-05-2020"
+  },
+  {
+    "applicantName": "Ryan",
+    "age": "32",
+    "place": "San Diego",
+    "certificateType": "medicalCertificate",
+    "phoneNumber": "8585553344",
+    "doctorName": "Dr. James",
+    "fatherOrMotherName": "Charles",
+    "date": "18-11-2018"
+  },
+  {
+    "name": "Chloe",
+    "fatherName": "Derek",
+    "district": "District Z",
+    "state": "Utah",
+    "certificateType": "domicileCertificate",
+    "phoneNumber": "3855557890",
+    "motherName": "Linda",
+    "village": "Village A",
+    "post": "Post B",
+    "fromYear": "2015",
+    "toYear": "2020",
+    "validYears": "5",
+    "date": "22-05-2021",
+    "officerName": "Officer X"
+  },
+  {
+    "name": "Evelyn",
+    "fatherName": "Victor",
+    "motherName": "Emma",
+    "certificateType": "casteCertificate",
+    "phoneNumber": "3125559000",
+    "district": "District A",
+    "tehsil": "Tehsil B",
+    "applicantNo": "5678",
+    "recipientNo": "1234",
+    "date": "20-01-2021",
+    "address": "456 Oak St, Nevada"
+  }
+]

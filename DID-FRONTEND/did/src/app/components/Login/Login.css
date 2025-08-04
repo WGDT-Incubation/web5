@@ -1,0 +1,147 @@
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff3e3;
+    padding: 0px;
+    padding-right:0px;
+  }
+  .login-left-div{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-image{
+    width: 50%;
+    height: 50%;
+  }
+  .login-left-div img{
+    width: 80%;
+  }
+  .login-right-div{
+    width: 50%;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-box {
+    width: 60%;
+    max-width: 80%;
+    padding: 100px 50px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .login-title {
+    color: #c1272c;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .login-subtitle {
+    font-size: 18px;
+    margin-bottom: 34px;
+    color: #333;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 26px;
+    border: 1px solid #b87072;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fff7ed;
+    outline: none;
+  }
+  
+  .login-input:focus {
+    background-color: #fff;
+    border-color: #c1272c;
+    border-width: 2px;
+  }
+  
+  .login-forgot {
+    text-align: right;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #2563eb;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .login-forgot a {
+    color: #c1272c;
+    text-decoration: none;
+ 
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #c1272c;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-button:hover {
+    background-color: #c1272c;
+  }
+  
+  .login-create {
+    margin-top: 18px;
+    font-size: 16px;
+  }
+  
+  .login-create a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+  }
+  
+  .error-message1 {
+    color: red;
+    font-size: 13px;
+    margin-top: -12px;
+    margin-bottom: 12px;
+    text-align: left;
+    position: relative;
+    z-index: 10000;
+  }
+  .password-wrapper {
+    position: relative;
+  }
+  
+  .password-toggle {
+    position: absolute;
+    right: 14px;
+    top: 39%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666;
+    font-size: 16px;
+  }
+
+  .login-signup-redirect {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+  }
+  
+  .login-signup-link {
+    color: #2563eb;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  

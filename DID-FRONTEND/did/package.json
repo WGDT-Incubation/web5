@@ -1,0 +1,38 @@
+{
+  "name": "did",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "PORT=3000 next start",
+    "start-server": "npx pm2 start npm --name 'did-issuer' -- run start",
+    "stop-server": "npx pm2 stop did-issuer && pm2 delete did-issuer",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "^14.2.15",
+    "@tanstack/react-query": "^5.67.1",
+    "dotenv": "^16.4.7",
+    "exceljs": "^4.4.0",
+    "fabric": "^6.7.0",
+    "fabricjs": "^1.0.0",
+    "file-saver": "^2.0.5",
+    "google": "^2.1.0",
+    "next": "15.2.1",
+    "papaparse": "^5.5.2",
+    "pm2": "^6.0.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/fabric": "^5.3.10",
+    "@types/file-saver": "^2.0.7",
+    "@types/node": "^20",
+    "@types/papaparse": "^5.3.16",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}

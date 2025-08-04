@@ -1,0 +1,276 @@
+.verify-certificate-container {
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fdf3e7;
+  border-radius: 8px;
+  min-height: 100vh;
+}
+
+.verify-certificate-container h1 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.search-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.chips-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.chip {
+  background-color: #c1272c;
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.search-section {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.search-section input{
+  border: none;
+  background-color: #fdf3e7;
+  outline: none;
+  width: 80%;
+  font-size: 18px;
+}
+.search-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 9px;
+  height: 44px;
+}
+.search-section-inner{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80%;
+  align-items: center;
+}
+.search-section button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #c1272c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 44px;
+}
+
+.search-section button:hover {
+  background-color: #c1272c;
+}
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.certificate-card {
+  padding: 1rem;
+  background-color: #fffcf7;
+  border-radius: 8px;
+
+}
+
+.members-heading {
+  font-weight: 800;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.members-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.member-card {
+  background: #f7f7f7;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  padding: 12px;
+  min-width: 250px;
+  flex: 1 1 300px;
+  box-sizing: border-box;
+}
+
+.member-field {
+  margin-bottom: 10px;
+}
+
+.member-field label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 4px;
+}
+.member-heading-row {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.members-heading {
+  font-weight: 800;
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  display: inline-block;
+}
+
+.member-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.member-box {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fffcf7;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.member-fields-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.result-item {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.result-item label {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.value-box {
+  background-color: #f7f6f6;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+}
+
+
+.certificate-details{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px; 
+}
+
+
+.result-item label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.value-box {
+  background-color: #eee;
+  padding: 0.75rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.preview-modal{
+  position: absolute;
+  top: 6.5%;
+  backdrop-filter: blur(50px);
+  width: 82%;
+  left: 18%;
+  height: 100vh;
+  background-color: #fff;
+}
+.certificate{
+  background-color: #fff;
+}
+.verify-preview{
+  padding: 14px;
+  background: #c1272c;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.close-btn-pre{
+  color: #000;
+  font-size: 40px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+ 
+}
+.loader-class{
+  width: 30%;
+  height: 100%;
+}
+
+.modal-error{
+  position: absolute;
+
+  border-radius: 20px;
+ width: 80%;
+ height: 80%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+backdrop-filter: blur(5px);
+left: 18%;
+top: 10%;
+
+}
+.modal-error-content{
+  background-color: #fffcf7;
+  padding: 50px;
+  border-radius: 10px;
+  width: 50%;
+  text-align: center;
+}
+.modal-error p{
+font-size: 24px;
+font-weight: bold;
+}
+.span-error{
+  color: #c1272c;
+}
+

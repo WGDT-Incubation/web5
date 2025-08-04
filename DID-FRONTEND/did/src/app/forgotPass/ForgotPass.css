@@ -1,0 +1,95 @@
+.forgotpass-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff3e3;
+  }
+  
+  .forgotpass-form {
+    background: #fff;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .forgotpass-title {
+    font-size: 24px;
+    color: #c1272c;
+    margin-bottom: 10px;
+  }
+  
+  .forgotpass-subtitle {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  .forgotpass-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .forgotpass-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #c1272c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .forgotpass-button:hover {
+    background-color: #c1272c;
+  }
+  
+  .error-message1 {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .success-message1 {
+    color: green;
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .back-to-login {
+    margin-top: 16px;
+    font-size: 14px;
+  }
+  
+  .login-redirect-link {
+    color: #c1272c;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  
+  .password-wrapper {
+    position: relative;
+  }
+  
+  .password-toggle {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #888;
+  }
+  

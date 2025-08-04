@@ -1,0 +1,47 @@
+.vdn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  padding: 24px ;
+    background-color: #fdf3e7;
+    height: 100vh;
+  }
+  
+  .vdn-card {
+    background: #fffcf7;
+    padding: 12px 16px;
+    border-left: 4px solid #c1272c;
+    border-radius: 4px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .vdn-status {
+    padding: 24px ;
+    font-size: 14px;
+    color: #555;
+    background-color: #fdf3e7;
+    height: 100vh;
+  }
+  
+  .vdn-status.error {
+    padding: 24px ;
+    color: #c00;
+       background-color: #fdf3e7;
+    height: 100vh;
+  }
+
+  .vdn-details-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #c1272c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* height: 44px; */
+
+  }
+  

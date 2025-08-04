@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" id="RejectDocument">
+  <defs>
+    <linearGradient id="a" x1="52.5" x2="52.5" y1="24" y2="98" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8cacb" stop-opacity="0" class="stopColorcaf0f8 svgShape"></stop>
+      <stop offset=".137" stop-color="#f7c6c8" stop-opacity=".021" class="stopColorc6eef7 svgShape"></stop>
+      <stop offset=".279" stop-color="#f4b9bb" stop-opacity=".084" class="stopColorb9e8f4 svgShape"></stop>
+      <stop offset=".423" stop-color="#efa4a6" stop-opacity=".188" class="stopColora4dfef svgShape"></stop>
+      <stop offset=".569" stop-color="#e8878a" stop-opacity=".334" class="stopColor87d2e8 svgShape"></stop>
+      <stop offset=".716" stop-color="#c1272c" stop-opacity=".522" class="stopColor60c1de svgShape"></stop>
+      <stop offset=".862" stop-color="#d33338" stop-opacity=".749" class="stopColor33add3 svgShape"></stop>
+      <stop offset="1" stop-color="#c70006" class="stopColor0096c7 svgShape"></stop>
+    </linearGradient>
+    <linearGradient id="b" x1="66" x2="66" y1="74" y2="103" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8cacb" stop-opacity="0" class="stopColorcaf0f8 svgShape"></stop>
+      <stop offset=".124" stop-color="#f8c9ca" stop-opacity=".018" class="stopColorc9f0f8 svgShape"></stop>
+      <stop offset=".254" stop-color="#f7c6c8" stop-opacity=".07" class="stopColorc6eff7 svgShape"></stop>
+      <stop offset=".385" stop-color="#f7c1c3" stop-opacity=".156" class="stopColorc1edf7 svgShape"></stop>
+      <stop offset=".518" stop-color="#f5babc" stop-opacity=".278" class="stopColorbaecf5 svgShape"></stop>
+      <stop offset=".652" stop-color="#f4b1b3" stop-opacity=".435" class="stopColorb1e9f4 svgShape"></stop>
+      <stop offset=".787" stop-color="#f2a6a8" stop-opacity=".627" class="stopColora6e6f2 svgShape"></stop>
+      <stop offset=".92" stop-color="#f0999c" stop-opacity=".85" class="stopColor99e2f0 svgShape"></stop>
+      <stop offset="1" stop-color="#ef9093" class="stopColor90e0ef svgShape"></stop>
+    </linearGradient>
+  </defs>
+  <polyline fill="#e4484d" points="76 29 72 24 29 24 29 98 76 98 76 29" class="color48cae4 svgShape"></polyline>
+  <polyline fill="url(#a)" points="76 29 72 24 29 24 29 98 76 98 76 29"></polyline>
+  <polygon fill="#f8cacb" points="98 103 34 103 34 29 85.2 29 98 45 98 103" class="colorcaf0f8 svgShape"></polygon>
+  <rect width="64" height="29" x="34" y="74" fill="url(#b)"></rect>
+  <line x1="39" x2="84" y1="45" y2="45" fill="none" stroke="#d80007" stroke-miterlimit="10" stroke-width="2" class="colorStroke00b4d8 svgStroke"></line>
+  <line x1="39" x2="84" y1="55" y2="55" fill="none" stroke="#d80007" stroke-miterlimit="10" stroke-width="2" class="colorStroke00b4d8 svgStroke"></line>
+  <line x1="39" x2="84" y1="65" y2="65" fill="none" stroke="#d80007" stroke-miterlimit="10" stroke-width="2" class="colorStroke00b4d8 svgStroke"></line>
+  <line x1="39" x2="64" y1="75" y2="75" fill="none" stroke="#d80007" stroke-miterlimit="10" stroke-width="2" class="colorStroke00b4d8 svgStroke"></line>
+  <rect width="45" height="2" x="39" y="44" fill="#d80007" class="color00b4d8 svgShape"></rect>
+  <rect width="45" height="2" x="39" y="54" fill="#d80007" class="color00b4d8 svgShape"></rect>
+  <rect width="45" height="2" x="39" y="64" fill="#d80007" class="color00b4d8 svgShape"></rect>
+  <rect width="25" height="2" x="39" y="74" fill="#d80007" class="color00b4d8 svgShape"></rect>
+  <circle cx="98" cy="82" r="12" fill="#e4484d" class="color48cae4 svgShape"></circle>
+  <rect width="2" height="10" x="97" y="77" fill="#f8cacb" transform="rotate(-45 98 82)" class="colorcaf0f8 svgShape"></rect>
+  <rect width="10" height="2" x="93" y="81" fill="#f8cacb" transform="rotate(-45 98 82)" class="colorcaf0f8 svgShape"></rect>
+</svg>

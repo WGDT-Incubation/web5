@@ -1,0 +1,130 @@
+.bulk-upload-container {
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .bulk-upload-actions {
+    margin-bottom: 20px;
+  }
+  .bulk-upload-table-container {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+  
+  .bulk-upload-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bulk-upload-table th,
+  .bulk-upload-table td {
+    border: 1px solid #ddd;
+    padding: 9px 6px;
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  .bulk-upload-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .bulk-upload-table tbody tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  .bulk-upload-table tbody tr:hover {
+    background-color: #f0f8ff;
+  }
+  
+  .bulk-upload-table button {
+    padding: 6px 12px;
+    background-color: #c1272c;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .bulk-upload-table button:hover {
+    background-color: #c1272c;
+  }
+  
+  .flex-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .btn-primary {
+    padding: 8px 14px;
+    background-color: #c1272c;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  .button-secondary{
+    padding: 8px 14px;
+    background-color: #fff;
+    color: #c1272c;
+    border: 1px solid #c1272c;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-size: 12px;
+    font-weight: 400;
+    height: 38px;
+    font-size: 15px;
+  }
+  .btn-primary:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .btn-primary:hover:not(:disabled) {
+    background-color: #c1272c;
+  }
+  
+  .preview-box {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    max-width: 600px;
+  }
+  
+  .preview-box ul {
+    list-style: none;
+    padding: 0;
+  }
+  .certifiacte-type-class{
+    padding: 12px 14px;
+    color: #c1272c;
+    border: 1px solid #c1272c;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  .preview-box li {
+    margin-bottom: 8px;
+  }
+  
+  .certificate-dropdown {
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
