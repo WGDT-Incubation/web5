@@ -1,0 +1,4 @@
+fablo-api.js
+chaincodes/chaincode-kv-node/node_modules/
+fablo-target/
+.env
